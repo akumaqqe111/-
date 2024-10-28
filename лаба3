@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Розклад занять</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table>
+        <caption>Розклад занять</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">День тижня</th>
+                <th rowspan="2">Пара</th>
+                <th rowspan="2">Тиждень</th>
+                <th colspan="2" class="header">Кузьма В.І.</th>
+                <th colspan="2" class="audience">Ауд.</th>
+            </tr>
+            <tr>
+                <th colspan="2" class="header">Предмет</th>
+                <th>(I)</th>
+                <th>(II)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5" class="day-cell">Середа</td>
+                <td>3</td>
+                <td>I</td>
+                <td colspan="2" class="subject">Організація БД<br><span class="teacher-name">Сербін</span></td>
+                <td>315</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>II</td>
+                <td colspan="2" class="subject">БЖД<br><span class="teacher-name">Грицюк</span></td>
+                <td>205в</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>I</td>
+                <td colspan="2" class="subject">Програмне забезпечення<br><span class="teacher-name">Марціяш</span></td>
+                <td>103</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+/////CSS
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #dbe5f1;
+    font-weight: bold;
+}
+
+.day-cell {
+    background-color: #b8cce4;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.header, .audience {
+    background-color: #dbe5f1;
+    font-weight: bold;
+}
+
+.subject {
+    font-weight: bold;
+    padding: 10px 5px;
+    background-color: #ffffff;
+}
+
+.teacher-name {
+    font-weight: normal;
+    font-size: 12px;
+    display: block;
+    margin-top: 4px;
+    color: #333;
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
