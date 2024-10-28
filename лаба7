@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Адаптивна галерея з описами</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Обгортка для центрування контенту -->
+  <div class="content-wrapper">
+    
+    <!-- Заголовок галереї -->
+    <div class="gallery-header">
+      <h1>Галерея зображень</h1>
+      <p>Тут представлені фото з описом</p>
+    </div>
+
+    <!-- Галерея зображень -->
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 1">
+        <h3>Фото 1</h3>
+        <p>Опис першого фото</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 2">
+        <h3>Фото 2</h3>
+        <p>Опис другого фото</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 3">
+        <h3>Фото 3</h3>
+        <p>Опис третього фото</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 4">
+        <h3>Фото 4</h3>
+        <p>Опис четвертого фото</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 5">
+        <h3>Фото 5</h3>
+        <p>Опис п'ятого фото</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 6">
+        <h3>Фото 6</h3>
+        <p>Опис шостого фото</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 7">
+        <h3>Фото 7</h3>
+        <p>Опис сьомого фото</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://via.placeholder.com/300x200" alt="Фото 8">
+        <h3>Фото 8</h3>
+        <p>Опис восьмого фото</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+/* Основний стиль сторінки */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Центрування обгортки контенту */
+.content-wrapper {
+  text-align: center;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Стиль для заголовка галереї */
+.gallery-header {
+  margin-bottom: 20px;
+}
+
+.gallery-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.gallery-header p {
+  font-size: 16px;
+  color: #666;
+  margin: 5px 0 0;
+}
+
+/* Контейнер для галереї */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Стилі для зображень та опису під ними */
+.gallery-item {
+  width: 24%;
+  margin: 0.5%;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.gallery-item:hover img {
+  filter: grayscale(0%);
+  transform: translateY(-5px);
+}
+
+.gallery-item h3 {
+  font-weight: bold;
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.gallery-item p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 768px) {
+  .gallery-item {
+    width: 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    width: 98%;
+  }
+}
