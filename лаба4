@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        .card-container {
+            width: 240px;
+            background-color: #f1f1f1; 
+            border: 2px solid #ddd; 
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+            text-align: center;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            margin: auto;
+        }
+
+      
+        .card-image {
+            width: 90%;
+            height: auto;
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+
+        .card-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        /* Property text styling */
+        .card-property {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+
+        .card-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+
+     
+        .edit-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .edit-button:hover {
+            background-color: #0056b3;
+            box-shadow: 0px 2px 6px rgba(0, 123, 255, 0.4);
+        }
+
+        /* Delete button styling */
+        .delete-button {
+            background-color: #dc3545;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .delete-button:hover {
+            background-color: #c82333;
+            box-shadow: 0px 2px 6px rgba(220, 53, 69, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card-container">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fuk.wikipedia.org%2Fwiki%2F%25D0%2596%25D0%25BE%25D1%2580%25D1%2581%25D1%2582%25D0%25BA%25D0%25B8%25D0%25B9_%25D0%25B4%25D0%25B8%25D1%2581%25D0%25BA&psig=AOvVaw3swRErSh0A2TalsVQrPp4r&ust=1730206898026000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjTyo-RsYkDFQAAAAAdAAAAABAE" alt="Hard Drive" class="card-image">
+        <div class="card-title">Жорсткий диск</div>
+        <div class="card-property">Виробник/Модель: MK1824FBV (HDD2522)</div>
+        <div class="card-property">Тип: Внутрішній</div>
+        <div class="card-property">Обсяг: 100 ГБ</div>
+        <div class="card-property">Інтерфейс: SCSI</div>
+        <div class="card-property">Форм-фактор: 2.5 дюйма</div>
+        <div class="card-property">Швидкість обертання: 8000 об/хв</div>
+        <div class="card-buttons">
+            <button class="edit-button">Edit</button>
+            <button class="delete-button">Delete</button>
+        </div>
+    </div>
+
+</body>
+</html>
