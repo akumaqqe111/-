@@ -85,7 +85,7 @@
 <body>
 
     <div class="card-container">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fuk.wikipedia.org%2Fwiki%2F%25D0%2596%25D0%25BE%25D1%2580%25D1%2581%25D1%2582%25D0%25BA%25D0%25B8%25D0%25B9_%25D0%25B4%25D0%25B8%25D1%2581%25D0%25BA&psig=AOvVaw3swRErSh0A2TalsVQrPp4r&ust=1730206898026000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjTyo-RsYkDFQAAAAAdAAAAABAE" alt="Hard Drive" class="card-image">
+        <img src="https://redlop.de/media/image/product/1991/lg/toshiba-mk1824fbv-352-mb.jpg" alt="Hard Drive" class="card-image">
         <div class="card-title">Жорсткий диск</div>
         <div class="card-property">Виробник/Модель: MK1824FBV (HDD2522)</div>
         <div class="card-property">Тип: Внутрішній</div>
