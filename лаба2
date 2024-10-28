@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <ul class="season-list">
+        <li><img src="arrow-right_16.png" alt="arrow icon" class="arrow-icon"> Winter
+            <ul>
+                <li><img src="snowflake_16.png" alt="snowflake icon"> December</li>
+                <li><img src="snowflake_16.png" alt="snowflake icon"> January</li>
+                <li><img src="snowflake_16.png" alt="snowflake icon"> February</li>
+            </ul>
+        </li>
+        <li><img src="arrow-right_16.png" alt="arrow icon" class="arrow-icon"> Spring
+            <ul>
+                <li><img src="leaf_g_16.png" alt="green leaf icon"> March</li>
+                <li><img src="leaf_g_16.png" alt="green leaf icon"> April</li>
+                <li><img src="leaf_g_16.png" alt="green leaf icon"> May</li>
+            </ul>
+        </li>
+        <li><img src="arrow-right_16.png" alt="arrow icon" class="arrow-icon"> Summer
+            <ul>
+                <li><img src="sun_16.png" alt="sun icon"> June</li>
+                <li><img src="sun_16.png" alt="sun icon"> July</li>
+                <li><img src="sun_16.png" alt="sun icon"> August</li>
+            </ul>
+        </li>
+        <li><img src="arrow-right_16.png" alt="arrow icon" class="arrow-icon"> Autumn
+            <ul>
+                <li><img src="leaf_y_16.png" alt="brown leaf icon"> September</li>
+                <li><img src="leaf_y_16.png" alt="brown leaf icon"> October</li>
+                <li><img src="leaf_y_16.png" alt="brown leaf icon"> November</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
+
+
+
+////CSS
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #FF8C00;
+}
+
+.season-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.season-list > li {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.season-list img {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.arrow-icon {
+    width: 12px;
+    height: auto;
+}
+
+.season-list ul {
+    list-style-type: none;
+    margin-top: 8px;
+    padding-left: 20px;
+}
+
+.season-list ul li {
+    font-weight: normal;
+    margin-top: 5px;
+}
