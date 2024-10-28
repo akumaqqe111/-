@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>Code Example</title>
+</head>
+<body>
+    <p>Стандартний код "Hello World!" </p>
+    <pre>
+        <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;This is a title&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;p&gt;Hello World!&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+</body>
+</html>
